@@ -1,0 +1,70 @@
+/* body {
+   font-family: Arial, sans-serif;
+   background-color: #f0f2f5;
+   margin: 0;
+   padding: 0;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   height: 100vh;
+ } */
+ .main {
+   background-color: #0084ff; /* Light blue color similar to Facebook Messenger */
+   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+   max-width: 100%;
+   padding: 20px;
+   border-radius: 10px;
+   text-align: center;
+ }
+ .main h1{
+   color: white;
+   font-family: monospace;
+ }
+
+.messenger-input {
+    padding: 50px;
+    
+    background-color:  #ffffff;
+    border-top: 1px solid #ccc;
+  }
+  /* .message_input-form {
+    margin-bottom: 20px;
+  }
+   */
+
+   .message_input-form {
+    display: flex;
+    justify-content: center;
+    position: fixed;
+    z-index: 1;
+    bottom: 0;
+    margin-bottom: 40px;
+    /* left: 50%; */
+    background-color: rgba(250, 250, 250, 0.5); /* 50% opacity */
+
+    /* transform: translate(-50%); */
+    padding: 10px;
+    width: 96%;
+
+  }
+  
+ .input-form{
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+    flex-direction: row !important;
+    /* width: 100%; */
+
+ }
+
+ .textField {
+   flex: 1 !important;
+   width: 600px;
+   padding: 10px !important;
+   border: 1px solid  rgb(255, 255, 255)   !important;
+   border-radius: 5px !important;
+   margin-right: 10px !important;
+ }
+ .btnField{
+    flex: 0 !important;
+ }

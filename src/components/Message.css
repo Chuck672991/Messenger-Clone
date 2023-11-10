@@ -1,0 +1,74 @@
+/* Message.css */
+.message-container {
+    display: flex;
+    align-items: flex-start;
+    margin-bottom: 10px;
+    padding: 10px;
+  }
+  
+  .avatar {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    /* Add background image or styles for the avatar */
+  }
+  
+  .message-content {
+    display: flex;
+    flex-direction: column;
+    margin-left: 12px;
+  }
+  
+  .username {
+    font-weight: bold;
+    color: saddlebrown;
+    font-size: 12px;
+    margin-bottom: 4px;
+  }
+  .text {
+align-self: flex-start !important;
+    font-size: 14px;
+    width: fit-content;
+  }
+  
+  /* Custom styling for the user's messages */
+  .message__user {
+    justify-content: flex-end;
+    text-align: right !important;
+  }
+  
+  .main-text {
+    
+    background-color: #0084ff; /* Your desired color for the user's message */
+    color: #fff; /* Text color for the user's message */
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    padding: 8px;
+    
+  }
+  
+  .main-user {
+    margin: 0;
+  }
+  
+  /* Custom styling for guest messages */
+  .message__guest {
+    justify-content: flex-start;
+  }
+  
+  .guest-text {
+    background-color: #e1e1e1; /* Your desired color for guest messages */
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    padding: 8px;
+    
+  }
+  
+  .guest-user {
+    margin: 0;
+align-self: flex-start !important;
+
+  }
+  
